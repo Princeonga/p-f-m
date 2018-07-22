@@ -1,0 +1,102 @@
+<style>
+body { 
+			background-image: url(b.png) ;
+			background-position: center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #efefef;       
+}
+
+  #container {
+  width: 840px;
+  margin: 25px auto;
+}
+
+#signup {
+  margin:40px 70%;
+  float: left;
+  width: 450px;
+  padding: 30px 20px;
+  background-color: ;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+[type=text] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  height: 45px;
+  margin-bottom: 10px;
+border-radius: 5px;
+}
+
+[type=submit] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  height: 45px;
+background-color: green;
+  margin-bottom: 10px;
+border-radius: 5px;
+}
+[type=submit]:hover {
+     background-color:red;
+}
+[type=password] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  height: 45px;
+  margin-bottom: 10px;
+border-radius: 5px;
+}
+
+[type=number] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 20%;
+  border: 0;
+  height: 45px;
+  margin-bottom: 10px;
+border-radius: 5px;
+}
+
+#ph {
+width:80px;
+margin: 0 5;
+padding:10px;
+border-radius:5px;
+outline:0px;
+}
+
+#phone {
+width:61%;
+border-radius:5px;
+outline:0px;
+}
+
+</style>
+
+<html>
+<head><title>PROSHBURG SIGNUP PAGE</title></head>
+<body>
+<h3>Welcome to <font color="blue">Proshburg Futbol Signup Page</font></h1>
+<div id="container">
+  <div id="signup">
+     <form action="main.html">
+       <input type="text" placeholder="First:" required=""/>
+       <input type="text" placeholder="Last:" required=""/>
+       <input type="text" placeholder="Email:" required=""/><br>
+<select id="ph"><option>+233</option><option>+234</option><option>+245</option></select><input type="number" name:"num" placeholder="Phone:" id="phone" required=""/>
+<input type="password" placeholder="Password" required=""/>
+<input type="password" placeholder="Confirm Password" required=""/>
+<input type="submit" value="SUBMIT" />I already have an account <a href="signin.html">Signin here.</a>
+     </form>
+  </div>
+
+</body>
+</html>
